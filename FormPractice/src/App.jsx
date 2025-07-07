@@ -1,11 +1,16 @@
-import Form from './Form'
+// import Form from './Form'
+import Comments from './Comments'
 import './App.css'
+
+import Jokes from './Jokes'
 
 function App() {
 
   return (
     <>
-      <Form></Form>
+      {/* <Jokes/> */}
+      <Comments/>
+      {/* <Form/> */}
     </>
   )
 }
